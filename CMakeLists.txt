@@ -3,5 +3,5 @@ project(courseSolvedExercises)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp Bear/Bear.cpp Bear/Bear.h Bear/bearMain.h Bunny/Bunny.cpp Bunny/Bunny.h Bunny/bunnyMain.h)
+set(SOURCE_FILES main.cpp Bear/Bear.cpp Bear/Bear.h Bear/bearMain.h Bunny/Bunny.cpp Bunny/Bunny.h Bunny/bunnyMain.h FurnitureShop/Furniture.cpp FurnitureShop/Furniture.h FurnitureShop/furnitureMain.h)
 add_executable(courseSolvedExercises ${SOURCE_FILES})
