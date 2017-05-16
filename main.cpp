@@ -5,9 +5,9 @@
 
 int main() {
     bearMain::callBearMain();
-    std::endl;
+    cout<<std::endl;
     bunnyMain::callBunnyMain();
-    std::endl;
+    cout<<std::endl;
     std::cout << "ByeBye, World! I'm finished :)" << std::endl;
     return 0;
 }
