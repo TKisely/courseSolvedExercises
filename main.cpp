@@ -2,6 +2,7 @@
 #include "Bear/bearMain.h"
 #include "Bunny/bunnyMain.h"
 #include "FurnitureShop/furnitureMain.h"
+#include "HealthCareTax/healthTaxMain.h"
 
 
 int main() {
@@ -11,6 +12,10 @@ int main() {
     cout<<std::endl;
     furnitureMain::callMainFurniture();
     cout<<std::endl;
+    healthTaxMain::callHealthTaxMain();
+    cout<<std::endl;
+
     std::cout << "ByeBye, World! I'm finished :)" << std::endl;
+
     return 0;
 }
